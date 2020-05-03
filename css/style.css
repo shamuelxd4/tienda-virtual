@@ -1,5 +1,7 @@
 
-
+body {
+    background-color: rgba(214, 185, 147, 0.253)!important;
+}
 /*globales*/
 .bg-primary {
     background-color: rgba(5, 108, 199, 0.651)!important;
@@ -9,12 +11,13 @@
     background-position: center center;
     background-size: cover;
 }
-
 h2 {
     font-size: 3rem;
 }
-
 /*TITULO*/
+.navegacion-principal .nav-link {
+    font-weight: 600;
+}
 .titulo {
     font-family: 'Playfair Display', serif;
 }
@@ -57,7 +60,6 @@ h2 {
 .imagen-nosotros {
     background-image: url(../img/nosotros.jpg);
 }
-
 /*NUESTROS PRODUCTOS*/
 .info-producto .precio {
     font-size: 1.8rem;
@@ -68,4 +70,11 @@ h2 {
 }
 .info-producto .btn-success:hover {
     background-color: rgb(6, 129, 16)!important;
+}
+/*FOOTER*/
+.footer {
+    border-top: 1.5px solid rgba(5, 108, 199, 0.651)!important;
+}
+.titulo,.footer-menu .nav-link {
+    color: rgb(71, 71, 71)!important;
 }
