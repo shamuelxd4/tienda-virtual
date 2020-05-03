@@ -1,0 +1,61 @@
+
+
+/*globales*/
+.bg-primary {
+    background-color: rgb(5, 108, 199)!important;
+}
+.imagen-bg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/*TITULO*/
+.titulo {
+    font-family: 'Playfair Display', serif;
+}
+.titulo span {
+    color: rgb(5, 108, 199);
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black!important;
+    font-size: 1.3rem;
+}
+.nav-link:hover {    
+    background-color:rgba(5, 108, 199, 0.651);
+    border-radius: 1rem;
+}
+.navbar {
+    border-top: 1px solid rgba(5, 108, 199, 0.651);
+    border-bottom: 1px solid rgba(5, 108, 199, 0.651);
+}
+
+/*IMAGEN PRINCIPAL*/
+.imagen-principal {
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
+}
+
+/*Categorias*/
+.categorias a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black!important;
+    font-size: 1.5rem;
+}
+/*sobre-nosotros*/
+.sobre-nosotros,
+.imagen-nosotros {
+    min-height: 35rem;
+}
+.imagen-nosotros {
+    background-image: url(../img/nosotros.jpg);
+}
+
+/*NUESTROS PRODUCTOS*/
