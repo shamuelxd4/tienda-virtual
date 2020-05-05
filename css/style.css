@@ -18,7 +18,7 @@ h2 {
 .navegacion-principal .nav-link {
     font-weight: 600;
 }
-.titulo {
+.titulo, .titulo-nosotros {
     font-family: 'Playfair Display', serif;
 }
 .titulo span {
@@ -26,7 +26,7 @@ h2 {
 }
 .nav-link {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 400!important;
     color: black!important;
     font-size: 1.3rem;
 }
@@ -53,6 +53,9 @@ h2 {
     font-size: 1.5rem;
 }
 /*sobre-nosotros*/
+.texto-nosotros {
+    color: white!important;
+}
 .sobre-nosotros,
 .imagen-nosotros {
     min-height: 35rem;
